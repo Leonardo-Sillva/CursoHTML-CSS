@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: grey;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        #p1:hover {
+            background-color: rgb(32, 32, 245);
+        
+        }
+
+        #p2:hover {
+            background-color: red;
+
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>bala azul</h1>
+    <div id="p1">pilula 1
+        <p>Mundo de iluão</p>
+    </div>
+    <div id="p2">pilula 2
+        <p>Mundo da Verdade</p>
+    </div>
+    
+</body>
+</html>
