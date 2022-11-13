@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.py">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estados" id="iest">
+                <optgroup label="Regios mais famosas">
+                    <option value="Mg">MINAS GERAIS</option>
+                    <option value="sp">SÃO PAULO</option>
+                    <option value="mg">MINAS GERAIS</option>
+                    <option value="sc">SANTA CATARINA</option>
+                    <option value="tf">Brasília</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="profissão" id="iprof" list="iprofe">
+            <datalist id="iprofe">
+                <option value="adm">administrador</option>
+                <option value="dev">desenvolvedor</option>
+                <option value="bomb">bombeiro</option>
+                <option value="sorv">sorveteiro</option>
+            </datalist>
+        </p>
+    </form>
+</body>
+</html>
