@@ -7,3 +7,12 @@ function clickMenu() {
         itens.style.display = "block"
     }
 }
+
+function monitorarTamanho() {
+    if (window.innerWidth >= 768) {
+        itens.style.display = "inline-block"
+    }
+    else {
+        itens.style.display = "none"
+    }
+}
