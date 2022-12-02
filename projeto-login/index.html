@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Meu projeto</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-nuno-obey-127160.jpg" alt="imgem" id="foto">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div class="digitaçao campo-de-email">
+                        <img src="bootstrap-icons-1.9.1/person-fill.svg" alt="icone de pessoa">
+                        <input type="email" name="email" class="input email" placeholder="seu e-mail">
+                    </div>
+                    <div class="digitaçao campo-de-senha">
+                        <img src="bootstrap-icons-1.9.1/key-fill.svg" alt="icone de chave">
+                        <input type="password" name="password" class=" input senha" placeholder="sua senha">
+                    </div>
+                    <div>
+                        <input type="button" value="Entrar" class="botoes botao-entrar">
+                        <input type="button" value="Esqueci a senha" class="botoes botao-esqueci-senha">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
