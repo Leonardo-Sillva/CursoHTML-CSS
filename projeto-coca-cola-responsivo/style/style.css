@@ -28,23 +28,30 @@ div#menu-mobile{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 
 img#logo-coca {
+    position: absolute;
     height: 50px;
     width: 50px;
+    top: -15px;
+    left: 0;
     border-radius: 50%;
     border: 1px solid white;
-    margin: 5px 20px;
+    margin: 20px 20px;
 }
 span#fechar-menu {
-    margin: 5px 20px;
+    position: absolute;
+    right: 0;
+    margin: 20px 20px;
     color: white;
 }
 span#hamburguer {
     position: absolute;
     right: 0;
     margin: 20px 20px;
+    color: white;
 }
 
 a#btn-entrar {
@@ -52,7 +59,7 @@ a#btn-entrar {
     font-size: 1.3em;
     font-weight: bold;
     border-bottom: 1px solid white;
-    margin: 30px 40px;
+    margin: 50px 40px 35px 40px;
 }
 header > nav > ul > li > a {
     display: inline-block;
@@ -60,4 +67,20 @@ header > nav > ul > li > a {
     text-decoration: none;
     margin: 7px 40px;
     font-weight: bold;
+}
+
+/* Banners primários*/
+main {
+    display: block;
+    height: 92vh;
+}
+
+div#banner-1 img {
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+div#banner-1 h1 {
+    height: 50%;
+    border: 3px solid gold;
 }
