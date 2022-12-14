@@ -5,6 +5,7 @@ const body = document.getElementById('body');
 
 function btnBurguer() {
     header.style.display = "none";
+    main.style.display= "block"
     body.style.backgroundColor = "white";
     
 }
