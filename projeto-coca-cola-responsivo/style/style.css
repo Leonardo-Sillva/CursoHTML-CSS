@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "fonte-natalina";
+    src: url(../fontes/You2013\ Regular.woff);
+}
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@ body, html {
 header {
     display: none;
     height: 100vh;
-    background-color: red;
+    background-color: #DB3534;
     z-index: 1000;
     overflow: hidden;
 }
@@ -74,13 +78,37 @@ main {
     display: block;
     height: 92vh;
 }
-
-div#banner-1 img {
-    height: 50%;
-    width: 100%;
-    background-color: red;
+div#banner-1 {
+    /* para tirar um pixel branca que estava entre os elemnto de img e do texto*/
+    background-color: #DB3534;
 }
-div#banner-1 h1 {
-    height: 50%;
-    border: 3px solid gold;
+div#banner-1 img {
+    height: 42%;
+    width: 100%;
+}
+div#texto-banner {
+    height: 50vh;
+    width: 81%;
+    background-color: #DB3534;
+    color: white;
+    margin: 20px 15px;
+}
+div#texto-banner h1 {
+    margin-bottom: 15px;
+    font-family: "fonte-natalina";
+}
+div#texto-banner p {
+    font-weight: 500;
+    line-height: 1.5em;
+}
+div#texto-banner a#btn-saiba_mais {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 130px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
 }
