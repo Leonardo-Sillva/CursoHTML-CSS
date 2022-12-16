@@ -15,3 +15,17 @@ function btnFechar() {
     main.style.display = "none";
     body.style.backgroundColor = "red";
 }
+
+/*Variáveis do carrosel de Banners*/
+const banner1 = document.getElementById("banner-1");
+
+function carroselBanner() {
+    
+    document.getElementById(img).src="img/banner-2";
+}
+
+    var pausa = setTimeout(function() {
+
+        carroselBanner()
+
+    }, 2000);
