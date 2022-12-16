@@ -83,11 +83,14 @@ div#banner-1 {
     background-color: #DB3534;
 }
 div#banner-1 img {
+    z-index: 2;
+    
+    background-image: url(../img/logo-coke-transparente);
     height: 42%;
     width: 100%;
 }
 div#texto-banner {
-    height: 50vh;
+    height: 40vh;
     width: 81%;
     background-color: #DB3534;
     color: white;
