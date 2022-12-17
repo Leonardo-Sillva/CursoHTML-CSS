@@ -16,3 +16,35 @@ function btnFechar() {
     iconeHamburguer.style.display = 'block';
     main.style.display = 'block';
 }
+
+/* Troca de Banners */
+
+let time = 2000,
+    currentBannerIndex = 0,
+    banners = document.querySelectorAll('#main div.bnn')
+    max = banners.length;
+
+function nextBanner() {
+
+    currentBannerIndex++
+
+    let banner = document.getElementById("selected");
+    banner.removeAttribute('id','selected');
+
+    if(currentBannerIndex >= max) {
+        currentBannerIndex = 0;
+    }
+
+    console.log(currentBannerIndex)
+
+    banners[currentBannerIndex].setAttribute('id','selected')
+
+}
+
+function start() {
+    setInterval(() => {
+        /* Troca de Banner */
+        nextBanner()
+    }, time);
+}
+window.addEventListener('load', start)

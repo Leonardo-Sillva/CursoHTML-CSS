@@ -64,10 +64,17 @@ span#icone-fechar {
     margin: 25px 20px;
     color: white;
 }
-main#main {
+main#main { 
     background-color: #DB3534;
 }
-div#banner-1 {
+.bnn  {
+    display: none;
+}
+#selected {
+    display: block;
+}
+/* Configurações BANNER1 */
+div.banner-1 {
     overflow: hidden;
 }
 img#img-banner1 {
@@ -93,3 +100,64 @@ div#banner-texto a#btn-entrar {
     margin-top: 20px;
     border-radius: 30px;
 }
+/* Configurações BANNER1 */
+
+/* Configurações BANNER2 */
+div.banner-2 {
+    overflow: hidden;
+}
+img#img-banner2 {
+    width: 100%;
+}
+div#banner-texto2 {
+    height: 37vh;
+    margin: 40px 20px;
+    color: white;
+}
+div#banner-texto2 h1 {
+    font-family: 'fonte-natalina';
+    margin-bottom: 20px;
+}
+div#banner-texto2 a#btn-entrar2 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 10px;
+    width: 120px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+/* Configurações BANNER2 */
+
+/* Configurações BANNER3 */
+div.banner-3 {
+    overflow: hidden;
+}
+img#img-banner3 {
+    width: 100%;
+    height: 42vh;
+}
+div#banner-texto3 {
+    height: 37vh;
+    margin: 40px 20px;
+    color: white;
+}
+div#banner-texto3 h1 {
+    font-family: 'fonte-natalina';
+    margin-bottom: 20px;
+}
+div#banner-texto3 a#btn-entrar3 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 10px;
+    width: 120px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+/* Configurações BANNER3 */
+
