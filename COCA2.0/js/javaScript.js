@@ -19,7 +19,7 @@ function btnFechar() {
 
 /* Troca de Banners */
 
-let time = 2000,
+let time = 10000,
     currentBannerIndex = 0,
     banners = document.querySelectorAll('#main div.bnn')
     max = banners.length;
