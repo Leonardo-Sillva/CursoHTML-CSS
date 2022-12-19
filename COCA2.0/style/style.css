@@ -79,6 +79,7 @@ div.banner-1 {
 }
 img#img-banner1 {
     width: 100%;
+    height: 42vh;
 }
 div#banner-texto {
     height: 37vh;
@@ -108,6 +109,7 @@ div.banner-2 {
 }
 img#img-banner2 {
     width: 100%;
+    height: 42vh;
 }
 div#banner-texto2 {
     height: 37vh;
