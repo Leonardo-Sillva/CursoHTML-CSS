@@ -39,6 +39,22 @@ function nextBanner() {
 
     banners[currentBannerIndex].setAttribute('id','selected')
 
+    switch (currentBannerIndex) {
+        case 0:
+            main.style.backgroundColor = '#DB3534';
+            break;
+        case 1:
+            main.style.backgroundColor = "#292727";
+            break;
+    
+        case 2:
+            main.style.backgroundColor = 'green';
+            break;
+        default:
+            break;
+    }
+
+
 }
 
 function start() {
@@ -48,3 +64,4 @@ function start() {
     }, time);
 }
 window.addEventListener('load', start)
+
