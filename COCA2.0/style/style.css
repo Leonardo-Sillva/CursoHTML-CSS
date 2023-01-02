@@ -273,16 +273,59 @@ height:    1800px;
     margin-right: 210px;
 }
 
-img#bnn-sem-açucar1 {
-    display: inline-block;
-    height: 37vh;
-    width: 120vw;
-    margin-left: -30px;
+
+section#container-bnn-sem-açucar1 {
+    background-color: black;
+    height: 74vh;
+    overflow: hidden;
 }
-img#bnn-sem-açucar2 {
+div#container-bnn-texto1 {
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    padding: 50px 25px;
+}
+div#container-bnn-texto1 h2 {
+    color: #DB3534;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+div#container-bnn-texto1 h1 {
+    color: white;
+    font-size: 1.9em;
+    margin: 0.4em 0em;
+}
+div#container-bnn-texto1 p {
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 1.1em;
+}
+div#container-bnn-texto1 a {
     display: inline-block;
-    height: 50vh;
-    width: 120vw;
-    object-fit: contain;
-    margin-left: -25px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.245);
+    border-radius: 30px;
+    width: 135px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+div#container-img-sem-açucar1 {
+
+}
+img#img-bnn-sem-açucar1 {
+    width: 130vw;
+    text-align: center;
+    margin-left: -55px;
+}
+div#container-bnn-sem-açucar2 {
+}
+img#img-bnn-sem-açucar2 {
+    width: 100%;
+    
 }
